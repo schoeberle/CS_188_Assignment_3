@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CS 188 Assignment 3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="button_two">Press Button Two!</string>
+    <string name="button_one">Press Button One!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my2">my2Activity</string>
+    <string name="title_activity_my3">my3Activity</string>
+</resources>
