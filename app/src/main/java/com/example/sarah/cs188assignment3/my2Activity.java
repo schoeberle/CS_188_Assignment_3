@@ -1,9 +1,13 @@
 package com.example.sarah.cs188assignment3;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class my2Activity extends AppCompatActivity {
 
@@ -11,6 +15,16 @@ public class my2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my2);
+
+        //Button when pushed will have "I a good!" pop up as a toast
+        Button myButton = (Button) findViewById(R.id.katie_button);
+        myButton.setBackgroundColor(Color.YELLOW); //button is yellow
+        myButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "A plumpkin.", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override
