@@ -39,7 +39,7 @@ public class myActivity extends AppCompatActivity {
 
     private void sendToThirdScreen()
     {
-        Intent intent = new Intent(this, my2Activity.class);
+        Intent intent = new Intent(this, my3Activity.class);
         startActivity(intent);
     }
 

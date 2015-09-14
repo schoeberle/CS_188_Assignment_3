@@ -8,4 +8,8 @@
     <string name="title_activity_my2">my2Activity</string>
     <string name="title_activity_my3">my3Activity</string>
     <string name ="katie_button">What do you call a fat pumpkin?</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
